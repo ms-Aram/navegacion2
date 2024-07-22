@@ -1,0 +1,29 @@
+
+.contenedor{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#53b58c ;
+    padding: 0.5rem;
+    width: 99%;
+    overflow: hidden;
+}
+
+.contenedor a{
+    background-color: #11719b;
+    border: solid 2px #8f8f8f  ;
+    color: beige;
+    font-family: "Kanit", sans-serif;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+.contenedor a:hover{
+    background-color: beige;
+    color: #ec7fff;
+
+}
